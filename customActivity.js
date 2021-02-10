@@ -113,7 +113,7 @@ define([
         connection.trigger('ready');
     }
 
-    function showStep(step, stepIndex) {
+        function showStep(step, stepIndex) {
         if (stepIndex && !step) {
             step = steps[stepIndex-1];
         }
@@ -146,29 +146,7 @@ define([
                     visible: true
                 });
                 break;
-            case 'step3':
-                $('#step3').show();
-                connection.trigger('updateButton', {
-                     button: 'back',
-                     visible: true
-                });
-                if (lastStepEnabled) {
-                    connection.trigger('updateButton', {
-                        button: 'next',
-                        text: 'next',
-                        visible: true
-                    });
-                } else {
-                    connection.trigger('updateButton', {
-                        button: 'next',
-                        text: 'done',
-                        visible: true
-                    });
-                }
-                break;
-            case 'step4':
-                $('#step4').show();
-                break;
+                
         }
     }
 
