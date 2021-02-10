@@ -26,27 +26,27 @@
                     "faxContact": ""
                 }
             ],
-            "url": "https://weatheralbert.herokuapp.com/execute",
+            "url": "https://customactivityfax.herokuapp.com/execute",
 			"verb": "POST"
         }
     },
     "configurationArguments": {
        "save": {
-           "url": "https://weatheralbert.herokuapp.com/save"
+           "url": "https://customactivityfax.herokuapp.com/save"
        },
        "publish": {
-           "url": "https://weatheralbert.herokuapp.com/publish"
+           "url": "https://customactivityfax.herokuapp.com/publish"
        },
        "validate": {
-           "url": "https://weatheralbert.herokuapp.com/validate"
+           "url": "https://customactivityfax.herokuapp.com/validate"
        },
        "stop": {
-           "url": "https://weatheralbert.herokuapp.com/stop"
+           "url": "https://customactivityfax.herokuapp.com/stop"
        }
     },
     "wizardSteps": [
        { "label": "Step 1", "key": "step1" },
-       { "label": "Step 2", "key": "step2" },
+       { "label": "Step 2", "key": "step2" }
     ],
     "userInterfaces": {
        "configModal": {
