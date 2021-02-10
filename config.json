@@ -1,7 +1,7 @@
 {
     "workflowApiVersion": "1.1",
     "metaData": {
-       "icon": "images/FaxIcon",
+       "icon": "images/FaxIcon.png",
        "category": "message"
     },
     "type": "REST",
